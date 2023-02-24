@@ -40,3 +40,15 @@ def power(num1, num2):
 def mod(num1, num2):
     """Return the remainder of num1 / num2."""
     return num1 % num2
+
+
+def add_mult(num1, num2, num3):
+    """Return the sum of num1 and num2 mulitiplied by num3"""
+
+    return (num1 + num2) * num3
+
+
+def add_cubes(num1, num2):
+    """Returns the sum of the cubes of num1 and num2"""
+
+    return cube(num1) + cube(num2)
